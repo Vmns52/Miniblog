@@ -20,8 +20,7 @@ const Login = () => {
         };
 
 
-        const res = await login(user)
-        console.log(user)
+        await login(user);
     }
     useEffect(() => {
         if (authError) {
