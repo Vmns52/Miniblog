@@ -11,8 +11,9 @@ const Navbar = () => {
     const { logout } = useAuthentication()
     return (
         <nav className={styles.navbar}>
+
             <NavLink className={styles.brand}>
-                Mini <span>Blog</span>
+                Mini<span>Blog</span>
             </NavLink>
             <ul className={styles.links_list}>
                 <li>

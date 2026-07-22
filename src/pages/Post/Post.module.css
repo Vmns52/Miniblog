@@ -8,6 +8,11 @@
     display: flex;
     justify-content: center;
 }
+img{
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 1em;
+}
 .tags p{
     margin-right: 1em;
 }
